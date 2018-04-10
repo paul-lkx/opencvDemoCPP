@@ -4,7 +4,7 @@ FIND_PACKAGE(OpenCV REQUIRED)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES edge.cpp)
+set(SOURCE_FILES cpp/tutorial_code/ImgTrans/HoughLines_Demo.cpp)
 add_executable(opencvDemo ${SOURCE_FILES})
 target_link_libraries(opencvDemo ${OpenCV_LIBS})
 
